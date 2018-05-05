@@ -1,0 +1,55 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+
+{% block content %}
+  <div class="container">
+    {# <iframe allowfullscreen src="http://oubs.fi/live/" width="900" height="510"></iframe>
+    <div class="oubs-promo">Powered by <a href="http://oubs.ayy.fi">OUBS</a></div> #}
+    <div id="youtube-wrapper">
+      <div id="youtube"></div>
+      <div class="bg-overlay"></div>
+      <div class="text">
+        <p>Graffathon is a three-day computer graphics hackathon aimed for novices. Every participant will create a computer program that produces a non-interactive multimedia presentation also known as demo. The event is targeted at real beginners who have no previous graphics coding and/or demoscene experience. There is however a competition targeted for people who have published a demo at some point in their lives. The demos can be made in small groups of two to four people. One can also make the demo by themselves or find a group at the event.</p>
+        <p>The program consists of helpful presentations and workshops which guide you on how to create your first demo. In addition, we teach you the basics of demoscene and democulture.</p>
+        {# <p><strong>Registration opens soon!</strong></p> #}
+        {# <<a href="https://www.eventbrite.com/e/graffathon-2017-tickets-34637428481" class="btn">Register</a> #}
+        <div class="date"><div>8.6.–10.6.2018<br>Espoo, Finland</div></div>
+      </div>
+      <div class="disclaimer"><a href="https://www.youtube.com/playlist?list=PLmRDkQf8W1WHIUi0WtG2uuOPfqr4ve6F3">Background video from Graffathon 2016 oldschool competition from Youtube</a></div>
+    </div>
+
+    <script>
+
+    </script>
+    {#<div class="jumbo">
+      <div class="text">
+        <p>Graffathon is a three-day computer graphics hackathon aimed for novices. Every participant will create a computer program that produces a non-interactive multimedia presentation also known as demo. The event is targeted at real beginners who have no previous graphics coding and/or demoscene experience. The demos can be made in small groups of two to four people. One can also make the demo by themselves or find a group at the event.</p>
+        <p>The program consists of helpful presentations and workshops which guide you on how to create your first demo. In addition, we teach you the basics of demoscene and democulture.</p>
+        <p><strong>Registration opens soon!</strong></p>
+        <!--<a href="https://docs.google.com/forms/d/1bBYOTWstzhHV22uWFBqcMmW0MPTZjC6PNz3ZdzsEmvU/viewform?c=0&w=1" class="btn">Register</a>-->
+        <div class="date"><div>30.6.–2.7.2017<br>Espoo, Finland</div></div>
+      </div>
+    </div> #}
+    <div class="divided">
+      <div class="part">
+        <img src="images/people.jpg">
+        <p>To participate you only need basic programming skills (from any language) and basic math skills - you do not have to be able to code graphics, make music or draw. Just bring your computer. You will learn. We provide all the tools and material to get you started.</p>
+        <p>Your computer does not have to be the latest and greatest (you do not need a crazy graphics card to try out graphics programming). Almost any computer will do. If you do not have have computer you can still work with your friend on one computer. Pair programming can be fun too!</p>
+      </div>
+      <div class="part">
+        <div class="videoWrapper aftermovie">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/kCJHc0odn_Q?modestbranding=1&showinfo=0&theme=light" frameborder="0" allowfullscreen style="width:100%;"></iframe>
+        </div>
+        <p class="videoCaption">Aftermovie for Graffathon 2015</p>
+      </div>
+    </div>
+    <div class="who-is-behind-this">
+      <div class="logos">
+      </div>
+      <a href="http://dot.ayy.fi"><img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University"></a>
+      <a href="https://futurice.com/" class="futurice-logo"><img src="{{ baseUrl }}images/futurice.svg" alt="Futurice"></a>
+      <p>The event is organized by the active members of DOT board and others. Thanks to <a href="http://oubs.ayy.fi">OUBS</a> for streaming the event.<br> Contact us at dot-hallitus@list.ayy.fi</p>
+    </div>
+  </div>
+{% endblock %}

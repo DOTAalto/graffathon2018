@@ -1,0 +1,36 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h2>Production rules</h2>
+  <ul>
+    <li>1920 x 1080 screen size highly recommended</li>
+    <li>Production must be run in real time and not just be a pre-rendered video<br>
+      <ul>
+        <li>Your production may, however, use pre-rendered material</li>
+      </ul>
+    </li>
+    <li>You must own or have the permission to use all the material in your production</li>
+    <li>Organizers reserve the right to augment or modify the competition rules if deemed necessary</li>
+    <li>The size of the production must be under 300mb<br>
+      <ul>
+        <li>We recommend that the production is much under this size</li>
+        <li>If the size of your production is too large, talk with the organizers to figure things out</li>
+      </ul>
+    </li>
+    {# <li>The production must be uploaded to <a href="http://graffathonpartysystem.dy.fi">http://graffathonpartysystem.dy.fi</a> before the deadline</li>#}
+    <li>Teams should have 1-4 members.</li>
+    <li>Sources will be released</li>
+  </ul>
+  <h2>Machine specs</h2>
+  <ul>
+    <li>TBA</li>    
+  </ul>
+  <p>If you are Aalto University you will get one course credit for participating in Graffathon. We are trying to get the same deal for the university of Helsinki and Metropolia and Haaga-Helia students. More information at the hackathon.</p>
+</div>
+{% endblock %}

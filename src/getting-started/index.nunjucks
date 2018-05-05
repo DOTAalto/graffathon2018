@@ -1,0 +1,21 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h2>Getting started</h2>
+  {#<p>Feel free to ask the organizers to help you!</p>
+  <ul>
+    <li><a href="https://github.com/anttihirvonen/demoscene-starter-kits">See our starter kit for getting started</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1NpO0pco0oo-H5hLs1QOPh1SWi0SGr62YfH1GuIEXBk4/pub?start=false&loop=false&delayms=10000">Last year's presentation on basics of demo programming</a></li>
+    <li><a href="https://www.youtube.com/playlist?list=PLmRDkQf8W1WHROz9nZBFSTCSKVi5XvUad">Last years presentations</a></li>
+    <li>Rocket is a tool for syncing music and visuals in demoscene productions. <a href="http://www.graffathon.fi/downloads/Rocket/">Download the binaries here</a>. <a href="https://github.com/kusma/rocket">Github repository</a> has further documentation.</li>
+    <li>Moonlander is a library for using Rocket in Processing. <a href="https://anttihirvonen.github.io/moonlander/">Read more and download.</a></li>
+  </ul>#}
+
+</div>
+{% endblock %}

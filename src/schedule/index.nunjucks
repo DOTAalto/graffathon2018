@@ -1,0 +1,83 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block config %}
+  {# Correct base url pathing for this page #}
+  {% set baseUrl = '../' %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <p>Schedule may have some changes.</p>
+  {# <p><a href="https://www.youtube.com/playlist?list=PLmRDkQf8W1WFpwUKnc8Z6mK6iaNncnb1z">See the presentations on Youtube</a></p>  #}
+  <section class="schedule-section">
+    <h2>Friday 30.6.</h2>
+    <table class="table">
+      <tr>
+        <td>17:00</td>
+        <td>Doors open</td>
+      </tr>
+      <tr>
+        <td>18:00</td>
+        <td>Opening ceremony</td>
+      </tr>
+      <tr>
+        <td>18:30</td>
+        <td>Demoscene presentation</td>
+      </tr>
+      <tr>
+        <td>19:45</td>
+        <td>Basics of demo programming with Processing</td>
+      </tr>
+      <tr>
+        <td>20:45</td>
+        <td>Team up for people who have no team</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="schedule-section">
+    <h2 onclick="cornify_add();return false;"><font color="#ff0000">S</font><font color="#eb3a13">a</font><font color="#d77127">t</font><font color="#c4a23a">u</font><font color="#b0cb4e">r</font><font color="#9ce962">d</font><font color="#89fa75">a</font><font color="#75fe89">y</font> <font color="#4edfb0">1</font><font color="#3abcc4">.</font><font color="#2790d7">7</font><font color="#135ceb">.</font></h2>
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+    <table class="table">
+      <tr>
+        <td>8:00</td>
+        <td>Doors open</td>
+      </tr>
+      <tr>
+        <td>16:00</td>
+        <td>Presentation</td>
+      </tr>
+    </table>
+  </section>
+
+  <section class="schedule-section">
+    <h2>Sunday 2.7.</h2>
+    <table class="table">
+      <tr>
+        <td>12:00</td>
+        <td>Deadline for demos</td>
+      </tr>
+      <tr>
+        <td>12:15</td>
+        <td>Food</td>
+      </tr>
+      <tr>
+        <td>14:30</td>
+        <td>Presention</td>
+      </tr>
+      <tr>
+        <td>15:45</td>
+        <td>Advanced compo</td>
+      </tr>
+      <tr>
+        <td>17:00</td>
+        <td>Beginner compo</td>
+      </tr>
+      <tr>
+        <td>21:00</td>
+        <td>Awards</td>
+      </tr>
+    </table>
+  </section>
+</div>
+{% endblock %}
