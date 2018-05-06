@@ -46,9 +46,9 @@
     </div>
     <div class="who-is-behind-this">
       <div class="logos">
-      <a href="http://dot.ayy.fi"><img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University"></a>
-      <a href="https://urbanmill.org/" class="urbanmill-logo"><img src="{{ baseUrl }}images/futurice.svg" alt="Urban Mill"></a>
-      <a href="https://www.tek.fi/" class="tekniikan-akateemiset-logo"><img src="{{ baseUrl }}images/tekniikanakateemiset_logorgb.png" alt="Tekniikan Akateemiset"></a>
+      <a href="http://dot.ayy.fi"><img src="http://dot.ayy.fi/uploads/images/dot_logo_2011_small.png" alt="Digital Media Club Aalto University" ></a>
+      <a href="https://urbanmill.org/" class="urbanmill-logo"><img src="{{ baseUrl }}images/urban_mill_logo_big.jpg" alt="Urban Mill" style="width: auto; height: auto;max-width: 400px;max-height: 150px></a>
+      <a href="https://www.tek.fi/" class="tekniikan-akateemiset-logo"><img src="{{ baseUrl }}images/tekniikanakateemiset_logorgb.png" style="width: auto; height: auto;max-width: 400px;max-height: 150px alt="Tekniikan Akateemiset"></a>
       </div>
       <p>The event is organized by the active members of DOT board and others. Thanks to <a href="http://oubs.ayy.fi">OUBS</a> for streaming the event.<br> Contact us at dot-hallitus@list.ayy.fi</p>
     </div>
