@@ -1,4 +1,4 @@
-# Graffathon 2017
+# Graffathon 2018
 
 Website for Graffathon.
 
